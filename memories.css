@@ -433,7 +433,7 @@
 @media screen and (min-aspect-ratio: 10/9) {
 	.ly-txt01 {
 		position:absolute;
-		width: 40%;
+		width: 100%;
 		left:10%;
 		top:10%;
 	}
@@ -449,7 +449,7 @@
 @media screen and (max-aspect-ratio: 3/4) {
 	.ly-txt01 {
 		position:absolute;
-		width: 40%;
+		width: 100%;
 		left:10%;
 		top:5%;
 	}
@@ -480,7 +480,7 @@
 	opacity: 0;
 	animation:ly-stxt01_move 15s;
 	animation-delay:3s;
-	-webkit-animation:ly-stxt01_move 15s;
+	-webkit-animation:ly-stxt01_move 30s;
 	-webkit-animation-delay:3s;
 }
 
