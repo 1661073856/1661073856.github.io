@@ -452,7 +452,7 @@
 		position:absolute;
 		width: 100%;
 		
-		right:10%;
+		
 		top:5%;
 	}
 	
@@ -477,8 +477,8 @@
 	font-size: 20px;
 	font-color: #000;
 	position: relative;
-	left: 5%;
-	top: 5%;
+	
+	top:5%
 	opacity: 0;
 	animation:ly-stxt01_move 15s;
 	animation-delay:3s;
