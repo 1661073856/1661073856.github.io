@@ -450,7 +450,7 @@
 	.ly-txt01 {
 		position:absolute;
 		width: 100%;
-		left:10%;
+		
 		top:5%;
 	}
 	
@@ -475,7 +475,7 @@
 	font-size: 30px;
 	font-color: #000;
 	position: relative;
-	left: 5%;
+	
 	top: 5%;
 	opacity: 0;
 	animation:ly-stxt01_move 15s;
