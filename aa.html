@@ -177,7 +177,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             // 动态变化的话,用|分割
-            S.UI.simulate("Wrong answer|I|Love|You|1314|#time");
+            S.UI.simulate("Wrong|I|Love|You|1314|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -324,14 +324,14 @@
 
                         if (sequence.length > 0) {
                             //定格
-                             S.Shape.switchShape(S.ShapeBuilder.letter("Do you love me?"))
+                             S.Shape.switchShape(S.ShapeBuilder.letter("1314"))
                         } else {
                             timedAction(function () {
                                 t = formatTime(new Date());
                                 if (t !== time) {
                                     time = t;
                                     //定格
-                                     S.Shape.switchShape(S.ShapeBuilder.letter("Do you love me?"))
+                                     S.Shape.switchShape(S.ShapeBuilder.letter("1314?"))
                                 }
                             }, 1000);
                         }
