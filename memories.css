@@ -434,7 +434,7 @@
 	.ly-txt01 {
 		position:absolute;
 		width: 100%;
-		left:10%;
+		
 		right:10%;
 		top:10%;
 	}
@@ -451,7 +451,7 @@
 	.ly-txt01 {
 		position:absolute;
 		width: 100%;
-		left:10%;
+		
 		right:10%;
 		top:5%;
 	}
@@ -474,7 +474,7 @@
 
 .ly-stxt01 {
 	font-family: Microsoft YaHei;
-	font-size: 30px;
+	font-size: 20px;
 	font-color: #000;
 	position: relative;
 	left: 5%;
