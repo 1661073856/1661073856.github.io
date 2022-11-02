@@ -10,7 +10,7 @@ $("#login-button").click(function (event) {
   var userName = document.getElementById("userName").value;
   var pwd = document.getElementById("pwd").value;
   //修改密码请改此处
-  if (userName == "yaer" && pwd == "20001105") {
+  if (userName == "202236513" && pwd == "yhj123456789") {
     event.preventDefault();
     $("form").fadeOut(500);
     $(".wrapper").addClass("form-success");
@@ -18,6 +18,6 @@ $("#login-button").click(function (event) {
       location.href = "BirthdayCake.html";
     }, 2000);
   } else {
-    alert("Wrong Password");
+    alert("密码错误，不是我芽");
   }
 });
